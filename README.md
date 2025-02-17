@@ -1,7 +1,10 @@
 # Cinema-Management-System
 
-### Installation
 
+![image](https://github.com/user-attachments/assets/6721a3cf-1842-41ef-8ac4-91511cfc6ef7)
+![image](https://github.com/user-attachments/assets/cd032e06-0a8b-429d-85b6-cc1075f3c146)
+
+### Installation
 ```bash
 composer install
 cp .env.example .env
