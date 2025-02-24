@@ -7,7 +7,7 @@ use App\Models\User;
 
 class MoviePolicy
 {
-    //    protected $model = Movie::class;
+       protected $model = Movie::class;
 
     /**
      * Determine whether the user can view any models.

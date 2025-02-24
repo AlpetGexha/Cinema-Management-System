@@ -20,21 +20,19 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-
-
-        DB::table('users')
-            ->insert([
-                'name' => 'Test User',
-                'email' => 'test@example.com',
-                'is_admin' => true,
-                'password' => Hash::make('password'),
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
+        // DB::table('users')
+        //     ->insert([
+        //         'name' => 'Test User',
+        //         'email' => 'test@example.com',
+        //         'is_admin' => true,
+        //         'password' => Hash::make('password'),
+        //         'created_at' => now(),
+        //         'updated_at' => now(),
+        //     ]);
 
         $user = User::factory()->create([
             'name' => 'Test User',
-            'email' => 'test1@example.com',
+            'email' => 'test@example.com',
             'is_admin' => true,
         ]);
 
