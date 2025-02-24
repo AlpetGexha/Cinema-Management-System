@@ -32,10 +32,6 @@ class DatabaseSeeder extends Seeder
                 'updated_at' => now(),
             ]);
 
-        if (app()->environment('production')) {
-            return;
-        }
-
         $user = User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',

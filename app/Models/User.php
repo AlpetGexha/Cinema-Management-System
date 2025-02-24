@@ -44,13 +44,13 @@ class User extends Authenticatable
 
     public function isAdmin(): bool
     {
-        return true;
+        return $this->is_admin;
     }
 
     /**
      * Get the attributes that should be cast.
      *
-     * @return array<string, string>
+     * @return array<string,herd string>
      */
     protected function casts(): array
     {
